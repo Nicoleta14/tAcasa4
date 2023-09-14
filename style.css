@@ -1,0 +1,89 @@
+/* ex 1 */
+body {
+    display: flex;
+}
+
+.block {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.div1 {
+    left: 20px;
+    background-color: red;
+    z-index: 4;
+}
+
+.div2 {
+    left: 40px;
+    background-color: greenyellow;
+    z-index: 3;
+}
+
+.div3 {
+    left: 60px;
+    background-color: blue;
+    z-index: 2;
+}
+
+.div4 {
+    left: 80px;
+    background-color: blueviolet;
+    z-index: 1;
+}
+
+    /* ex 2 */
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.relative {
+    position: relative;
+    top: 16px;
+    right: 16px;
+}
+    /* ex 4 */
+
+    .parent {
+        width: 300px;
+        height: 100px;
+        border: 4px solid gray;
+    }
+    
+    .child {
+        width: 100%;
+        height: 50px;
+        padding: 8px 16px;
+        border: 2px solid red;
+        box-sizing: border-box;
+    
+    }
+
+   /* ex 3 */
+
+.displayNone{
+    display: none;
+}
+
+.visibilityHidden{
+    visibility: hidden;
+}
+
+  /* ex 5 */
+.parentTwo{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
